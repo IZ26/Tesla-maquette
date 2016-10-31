@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+#bloc1 {
+    width: 100%;
+    background: black;
+}
+#header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#header ul {
+    list-style: none;
+    float: right;
+}
+#header ul li {
+    margin: 0 20px;
+    margin-top: 60px;
+}
+#header ul li a {
+    text-decoration: none;
+    color: #97989b;
+}
+#header a:hover {
+    color: white;
+}
+#header li{
+    float: left;
+}
+.middle {
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    float: right;
+    margin: 0% 10%;
+}
+.middle a {
+    text-decoration: none;
+    color: white;
+}
+.bulles ul li {
+    color: white;
+}
+.bulles ul li:hover {
+    color: red;
+}
