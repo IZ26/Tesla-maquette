@@ -1,11 +1,12 @@
 * {
     margin: 0;
+    font-family: Myriad, sans-serif !important;
 }
 #bloc1 {
-    width: 100%;
     background: black;
 }
 #header {
+    overflow: hidden;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -19,7 +20,8 @@
 }
 #header ul li a {
     text-decoration: none;
-    color: #97989b;
+    color: #adadad;
+    font-size: 15px;
 }
 #header a:hover {
     color: white;
@@ -27,20 +29,53 @@
 #header li{
     float: left;
 }
-.middle {
-    text-align: left;
-    color: white;
+#middle {
     overflow: hidden;
-    float: right;
-    margin: 0% 10%;
 }
-.middle a {
-    text-decoration: none;
+.bulles {
+    float: left;
     color: white;
+    margin-top: 120px;
+    margin-left: 40px;
 }
-.bulles ul li {
-    color: white;
+.bulles li {
+    line-height: 25px;
+    font-size: 30px;
 }
-.bulles ul li:hover {
+.bulles li:hover {
     color: red;
 }
+.middle-text {
+    text-align: left;
+    float: right;
+    color: #cdcdcd;
+    margin: 50px 150px;
+    font-size: 12px;
+}
+.middle-text p {
+    margin-top: 25px;
+    line-height: 20px;
+}
+.middle-text h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.middle-text a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: solid 2px white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.middle-end {
+    float: right;
+}
+
+
+
