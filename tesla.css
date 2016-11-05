@@ -82,9 +82,7 @@
 #bottom {
     overflow: hidden;
     color: white;
-}
-#bottom {
-    text-align: center;
+    text-align: left;
 }
 .chiffre {
     font-weight: normal;
@@ -111,5 +109,51 @@
     padding-top: 180px;
     background: url(bullets_top.png) no-repeat top;
 }
-
-
+.top1 {
+    display: inline-block;
+    background: #62647d;
+}
+.top1 img {
+    float: right;
+    width: 50%;
+}
+.text1 {
+    display: inline-block;
+    float: left;
+    background: url(bullets_right_long.png) no-repeat right top;
+    padding-right: 150px;
+    margin: 80px 10px
+}
+.text1 h2 {
+    color: white;
+}
+.text1 p {
+    color: #cdcdcd;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.bottom1 {
+    display: inline-block;
+    background: #30313e;
+}
+.bottom1 img {
+    float: left;
+    width: 50%;
+}
+.text2 {
+    float: right;
+    display: inline-block;
+    background: url(bullets_left_short.png) no-repeat left top;
+    padding-left: 165px;
+    margin: 80px 40px
+}
+.text2 h2 {
+    color: white;
+}
+.text2 p{
+    margin-top: 10px;
+    line-height: 20px;
+    color: #bdbdbe;
+    font-size: 13px;
+}
