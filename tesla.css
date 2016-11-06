@@ -130,6 +130,7 @@
     color: white;
     padding-top: 80px;
     padding-left: 100px;
+    display: inline-block;
 }
 #text1 p {
     color: #cdcdcd;
@@ -157,15 +158,15 @@
 }
 #text2 h2 {
     color: white;
-    padding-top: 85px;
-    padding-left: 100px;
+    padding-top: 90px;
+    padding-left: 150px;
 }
 #text2 p {
-    color: #bdbdbe;
+    color: #919295;
     font-size: 12px;
     line-height: 20px;
     margin-top: 10px;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 
