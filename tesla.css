@@ -1,7 +1,9 @@
 * {
     margin: 0;
-    font-family: 'Myriad Pro' , sans-serif !important;
+    font-family: 'MyriadPro', sans-serif !important;
 }
+
+
 #bloc1 {
     background-image: url(hero_bg.jpg);
     background-size: 100%;
@@ -43,9 +45,6 @@
 .bulles li {
     line-height: 25px;
     font-size: 30px;
-}
-.bulles li:hover {
-    color: red;
 }
 .middle-text {
     text-align: left;
@@ -118,54 +117,58 @@
     background: url(bullets_top.png) no-repeat top;
     padding-bottom: 50px;
 }
-.top1 {
-    display: inline-block;
-    background: #62647d;
-}
-.top1 img {
-    float: right;
-    width: 50%;
-}
-.text1 {
+
+
+#text1 {
     display: inline-block;
     float: left;
-    background: url(bullets_right_long.png) no-repeat right top;
-    padding-right: 150px;
-    margin: 80px 10px;
+    background: #62647d;
+    width: 50%;
+    height: 320px;
 }
-.text1 h2 {
+#text1 h2 {
     color: white;
+    padding-top: 80px;
+    padding-left: 100px;
 }
-.text1 p {
+#text1 p {
     color: #cdcdcd;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     margin-top: 10px;
+    padding-left: 100px;
 }
-.bottom1 {
+#exterior {
+    background-image: url(exterior.jpg);
+    background-size: 50%;
+    height: 320px
+}
+#interior {
+    background-image: url(interior.png);
+    background-size: 50%;
+    height: 320px;
+}
+#text2 {
+    float: right;
     display: inline-block;
     background: #30313e;
-}
-.bottom1 img {
-    float: left;
     width: 50%;
+    height: 320px; 
 }
-.text2 {
-    float: right;
-    display: inline-block;
-    background: url(bullets_left_short.png) no-repeat left top;
-    padding-left: 165px;
-    margin: 80px 40px
-}
-.text2 h2 {
+#text2 h2 {
     color: white;
+    padding-top: 85px;
+    padding-left: 100px;
 }
-.text2 p{
-    margin-top: 10px;
-    line-height: 20px;
+#text2 p {
     color: #bdbdbe;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-left: 100px;
 }
+
+
 #bloc3 {
     background: white;
     width: 100%;
@@ -190,6 +193,8 @@
     text-decoration: none;
     color: white;
 }
+
+
 #bloc4 {
     text-align: center;
     background: #62647d;
